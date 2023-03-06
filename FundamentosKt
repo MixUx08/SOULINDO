@@ -1,1 +1,7 @@
-
+fun main() {
+    println("Eu sou lindo.")
+    print("eai :)")
+    var number= "0"
+    
+}
+//----------------------------
