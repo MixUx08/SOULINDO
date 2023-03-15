@@ -37,3 +37,75 @@ fun main() {
      var professoresDeGeografia = "Glória" 
      var professorr: String 
 }
+//--------------------------------------------------------------------
+//---------------------------------------------------------------------------
+fun main() {
+     // Concatenação
+     // 
+     // 
+     /*
+     var tartaruga = "Michael Havckson"
+    
+    println("O nome da tartaruga do Kilyan Mbappé é $tartaruga")
+    println("O nome da tartaruga do Kilyan Mbappé é " + tartaruga) 
+    
+    var leclerc = 2 
+    var alonso = 1
+    
+    println(" A posição do Lek Lek + a posição do Alonso são ${(leclerc + alonso)}")
+    println(" A posição do Lek Lek + a posição do Alonso são " + (leclerc + alonso))
+    
+    
+    var nome = "Anderson" 
+    var idade = 15 
+    var cidade = "São Paulo" 
+    
+    println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */
+    
+    // Exercício - ◘ Faça um diálogo de no mínimo 15 linhas, nele deve conter,
+    // os nomes de quem estiver falando de forma concatenada usando variáveis 
+    // ◘ Usem a criatividade ☺
+    // 
+    // 
+   
+    var nome = "???"
+    var nomegrande = "VIOLONCELO"
+    var idade = 38
+    var cidade = "Veneza, Italy"
+    
+    var nome2 = "???"
+    var idade2 = 31
+    var cidade2 = "Cristiano, Portugal"
+    
+    var nome3 = "Violino"
+    var idade3 = 7
+    var cidade3 = "Milan, Italy"
+    
+    println("$nome2: Oi... Qual é o seu nome?")
+    nome = "Violoncelo"
+    println("$nome: O meu nome é $nome, eu tenho $idade anos e moro em $cidade.")
+    nome2 = "Viola"
+    println("$nome2: Legal! O meu nome é $nome2, eu tenho $idade2 anos e moro em $cidade2. Um prazer te conhecer!")
+    println("$nome: Soube que você mora aqui há pouco tempo. Você gostou daqui?")
+    println("$nome2: Eu adorei a experiência de morar aqui!")
+    println("$nome: Então bora pra minha casa que você vai gostar mais, rs.")
+    println("$nome2: Bora gatinho, rs.")
+    println("")
+    println("Anos depois, nasce a pequeno $nome3, em $cidade3.")
+    println("")
+    println("$nome3: BUÁÁÁÁ!")
+    println("$nome2: Ô $nomegrande! Tá na hora de dar comida pra nossa criança!!!!")
+    println("$nome: Ô MULHER! ALIMENTA VOCÊ!")
+    println("$nome3: BUÁÁÁÁ! BUÁÁÁÁÁÁ!!!!!")
+    println("$nome2: Desculpa, mas eu já cansei dessa nossa relação abusiva. Vamos terminar.")
+    println("$nome: E você acha que eu ligo pra você e pro nosso filho?")
+    println("")
+    println("*$nome dá um tapa na cara da $nome2*")
+    println("")
+    println("Viola cai de cabeça na quina da pia e morre.")
+    println("Fim.")
+    
+}
+//-------------------------------------------------------------------------------------------
+//
