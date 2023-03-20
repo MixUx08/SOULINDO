@@ -109,3 +109,38 @@ fun main() {
 }
 //-------------------------------------------------------------------------------------------
 //
+fun main() {
+    
+    //Operadores Matemáticos
+    //
+    // + -> adição
+    // - -> subtração
+    // / -> divisão
+    // * -> multiplicação
+    // % -> módulo
+    // 
+    // var halls = 6
+    // var freegells = 6
+    
+    // println(halls % freegells)
+    
+    // EXERCÍCIO - Faça uma calculadora
+    
+     
+     println("|----------Minha Calculadora------------|")
+     println("")
+   
+     println("Armas= 75 Munições= 125")
+     
+     var armas = 75.0
+     var municoes = 125.0
+     println("")
+     
+     println("${(armas + municoes)}   - ADIÇÃO") 
+     println("${(armas - municoes)}   - SUBTRAÇÃO")
+     println("${(armas / municoes)}     - DIVISÃO")
+     println("${(armas * municoes)}  - MULTIPLICAÇÃO")
+     println("${(armas % municoes)}    - MÓDULO")
+     
+     println("|---------------------------------------|")
+}
