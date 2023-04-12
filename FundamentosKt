@@ -532,3 +532,63 @@ fun main() {
     }
     
 }
+//-------------------------------------------
+fun main() {
+    
+    // Laços de repetição - Loops
+    // 
+    // repeat - repita
+    // while - enquanto
+    // do...while - faça...enquanto
+    // for - para
+    // 
+    // repeat - repita
+    // vai repetir uma determinada ação uma determinada quantidade de vezes
+    // 
+    // Estrutura repeat
+    // 
+    // repeat(número de vezes){
+    // ação
+    // }
+    // 
+  /*     repeat(14){
+           println("isso é um tes")
+       }
+}
+*/
+    /*Exercício:
+    var gols = 0
+    
+    repeat(8){
+        println(gols ++)
+    }
+  
+} */
+    
+    //Laço While - enquanto
+    //
+    // enquanto uma condição for verdadeira, uma determinada ação estará sendo executada
+    //Estrutura do While
+    //
+    // while(){
+    // ação
+    // }
+    
+    /* var contador = 0
+    while(contador < 10){
+        println(contador++)
+    }
+    */
+    
+    //Exercício -> Simulador de Bateria de Celular
+    
+    var bateria = 100
+    
+    
+    while(bateria > 14){
+        println(bateria--)}
+    
+    if(bateria == 15){
+        println("Bateria está baixa!")}
+    
+ }
