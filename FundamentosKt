@@ -592,3 +592,47 @@ fun main() {
         println("Bateria está baixa!")}
     
  }
+//-------------------------------------------
+fun main() {
+    // while -> ENQUANTO uma determinada condição for verdadeira, uma determinada ação será executada
+    // 
+    // do..while
+    // 
+    // uma determinada ação será executada, ENQUANTO uma determinada condição for verdadeira
+    // 
+    // Estrutura:
+    // 
+    // do{
+    // ação
+    // }while(condição)
+    // 
+    /*
+    var contador = 0
+    
+    do{
+      println(contador++)
+    }while(contador <= 10)
+    */
+    
+    // for - para
+    // 
+    // PARA cada item em um intervalo ou colection, determinada ação será executada
+    // Estrutura: 
+    // 
+    // for(vAuxiliar in intervalo ou colection){
+    // ação
+    // }
+    // 
+    /*
+    for(pneu in 1..4){
+        println("$pneu")
+    }
+    */
+    // Exercício -> Faça uma tabuada de um número escolhido, utilizando o laço for
+    // em excessão as tabuadas de 0, 1 e 2
+    //
+    
+    for(tabuada in 1..10){
+        println("$tabuada")
+    }
+}
