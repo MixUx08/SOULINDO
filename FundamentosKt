@@ -691,3 +691,138 @@ fun main() {
     
     
 }
+//-----------------------------------------------
+fun main() {
+    
+    
+    // Obs. listOf() -> imutável
+    // Próxima aula... mutableListOf()
+    // mutableListOf() --> armazena qualquer tipo de valores conjuntos
+    // mutavleListOf<tipoDeValor> -> armazena valores específicos de seu tipo
+    // 
+  /*  var comida = mutableListOf<String>("Strogonoff", "Patê de Frango", "Lasanha", "Feijoada")
+    
+    println("Etapa 1, utilizar o println para fazer a lista ser escrita:")
+    println(comida)
+    
+    // Propriedades da mutableListOf
+    // 
+    println("")
+    println("Etapa 2, adicionar um elemento:")
+    
+    comida.add("Macarrão")
+    println(comida)
+    
+    println("")
+    println("Etapa 3, adicionar um elemento em um index específico:")
+    
+    comida.add(3, "Cuscuz")
+    println(comida)
+    
+    println("")
+    println("Etapa 4, remover um index específico da lista:")
+    
+    comida.remove("Patê de Frango")
+    println(comida)
+    
+    println("")
+    println("Etapa 5, remover um index específico da lista utilizando seu número de posição: (Bem mais prático)")
+    
+    comida.removeAt(4)
+    println(comida)
+    
+    println("")
+    println("Etapa 6, substituir um elemento/index por um outro:")
+    
+    comida.set(2, "Pastel de Carne Seca")
+    println(comida)
+    
+    println("")
+    println("Etapa 7, excluir toda a lista:")
+    
+    comida.clear()
+    println(comida) */
+    
+    
+    // Exercício -> A cada mês do ano, uma turma de 5 alunos, entra um aluno novo
+    // crie a lista inicial de alunos da turma
+    // a cada mês adicione um novo aluno (em linhas diferentes)
+    // e 2 meses do ano, 2 alunos foram transferidos
+    // da turma (dica: em meses diferentes)
+    // e em 2 meses do ano, 2 alunos foram substituidos por
+    // outros dois alunos (dica: substituidos em meses diferentes)
+    // 
+    // Exiba a lista de alunos respectiva de cada mês do ano
+    // 
+    
+    var alunos = mutableListOf<String>("Cascão", "Cebolinha", "Mônica", "Magali", "Franjinha")
+    
+    println("Janeiro")
+    alunos.add("Chico Bento")
+    alunos.removeAt(1,2)
+    println(alunos)
+    
+    println("")
+    println("Fevereiro")
+    alunos.add("Anjinho")
+    alunos.set(2, "Pastel de Carne Seca")
+    println(alunos)
+    
+    println("")
+    alunos.add("Do Contra")
+    println("Março")
+    alunos.removeAt(1,2)
+    println(alunos)
+    
+    println("")
+    alunos.add("Maria Cascuda")
+    println("Abril")
+    alunos.set(2, "Pastel de Carne Seca")
+    println(alunos)
+    
+    println("")
+    alunos.add("Bidu")
+    println("Maio")
+    println(alunos)
+    
+    println("")
+    alunos.add("Sansão")
+    println("Junho")
+    alunos.set(2, "Pastel de Carne Seca")
+    println(alunos)
+    
+    println("")
+    alunos.add("Astronauta")
+    println("Julho")
+    println(alunos)
+    
+    println("")
+    alunos.add("Dorinha")
+    println("Agosto")
+    alunos.set(2, "Pastel de Carne Seca")
+    println(alunos)
+    
+    println("")
+    alunos.add("Chovinista")
+    println("Setembro")
+    println(alunos)
+    
+    println("")
+    alunos.add("Xaveco")
+    println("Outubro")
+    alunos.set(2, "Pastel de Carne Seca")
+    println(alunos)
+    
+    println("")
+    alunos.add("Floquinho")
+    println("Novembro")
+    println(alunos)
+    
+    println("")
+    alunos.add("Horácio")
+    println("Dezembro")
+    alunos.set(2, "Pastel de Carne Seca")
+    println(alunos)
+    
+    
+}
