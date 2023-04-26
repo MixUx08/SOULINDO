@@ -826,3 +826,88 @@ fun main() {
     
     
 }
+//-------------------------------------------------------------------
+fun main() {
+    // Exercício -> A cada mês do ano, uma turma de 5 alunos, entra um aluno novo
+    // crie a lista inicial de alunos da turma
+    // a cada mês adicione um novo aluno (em linhas diferentes)
+    // e 2 meses do ano, 2 alunos foram transferidos
+    // da turma (dica: em meses diferentes)
+    // e em 2 meses do ano, 2 alunos foram substituidos por
+    // outros dois alunos (dica: substituidos em meses diferentes)
+    // 
+    // Exiba a lista de alunos respectiva de cada mês do ano
+    // 
+    
+    var alunos = mutableListOf<String>("Cascão", "Cebolinha", "Mônica", "Magali", "Franjinha")
+    
+    println("No início do curso, havia os seguintes alunos:")
+    println(alunos)
+    
+    println("")
+    println("Janeiro:") // Neste mês, será transferido 1 alunos da sala e será adicionado 1 aluno
+    alunos.add("Chico Bento") 
+    alunos.removeAt(1) 
+    println(alunos)
+    
+    println("")
+    println("Fevereiro:") // Neste mês, 1 aluno será transferido da turma e será adicionado 1 aluno
+    alunos.add("Anjinho")
+    alunos.set(2, "Maria")
+    println(alunos)
+    
+    println("") 
+    alunos.add("Do Contra")
+    println("Março:") // Neste mês, será transferido 1 alunos da sala e será adicionado 1 aluno
+    alunos.removeAt(3)
+    println(alunos)
+    
+    println("")
+    alunos.add("Maria Cascuda")
+    println("Abril:") // Neste mês, 1 alunos será transferidos da turma e será adicionado 1 aluno
+    alunos.set(2, "Pedro")
+    println(alunos)
+    
+    println("")
+    alunos.add("Bidu")
+    println("Maio:") // Neste mês, será adicionado um novo aluno
+    println(alunos)
+    
+    println("")
+    alunos.add("Sansão")
+    println("Junho:") // Neste mês, será adicionado um novo aluno
+    println(alunos)
+    
+    println("")
+    alunos.add("Astronauta")
+    println("Julho:") // Neste mês, será adicionado um novo aluno
+    println(alunos)
+    
+    println("")
+    alunos.add("Dorinha")
+    println("Agosto:") // Neste mês, será adicionado um novo aluno
+    println(alunos)
+    
+    println("")
+    alunos.add("Chovinista")
+    println("Setembro:") // Neste mês, será adicionado um novo aluno
+    println(alunos)
+    
+    println("")
+    alunos.add("Xaveco")
+    println("Outubro:") // Neste mês, será adicionado um novo aluno
+    println(alunos)
+    
+    println("")
+    alunos.add("Floquinho")
+    println("Novembro:") // Neste mês, será adicionado um novo aluno
+    println(alunos)
+    
+    println("")
+    alunos.add("Horácio")
+    println("Dezembro:") // Neste mês, será adicionado um novo aluno
+    println(alunos)
+    
+    
+}
+//----------------------------------------------------------------------
