@@ -970,3 +970,66 @@ class Pessoa {
     var altura = 23.4
     var peso = 70.12
     var profissao = "" 
+//-----------------------------------------------------------------------------
+fun main() {
+    
+    var pessoa1 = Pessoa() //instanciamos um obj
+    /*
+    println(pessoa1.peso) //Exibir um atributo de um obj
+    println(pessoa1.altura) 
+    pessoa1.nome = "Edinaldo Pereira" //alterar um valor de um atributo de um obj
+    println(pessoa1.nome + ", "+pessoa1.idade)
+    
+}
+
+class Pessoa {
+    
+    var nome = ""
+    var idade = 0
+    var altura = 23.4
+    var peso = 70.12
+    var profissao = "" 
+    
+}
+*/
+// Exercício -> Faça uma apresentação sua utiizando a classe Pessoa() já criada e utilizando pelo menos,
+// todos os atributos que existem na classe
+ /*
+ var pessoa2 = Pessoa()
+ pessoa2.nome = "Anderson"
+ pessoa2.idade = 16
+ pessoa2.nacionalidade = "brasileiro"
+ pessoa2.idioma = "português"
+ pessoa2.profissao = "procura experiência"
+ println("Meu nome é ${pessoa2.nome}, eu tenho ${pessoa2.idade}, eu sou ${pessoa2.nacionalidade}, eu falo ${pessoa2.idioma}, eu estou à ${pessoa2.profissao}.")
+ */
+ 
+ var pessoa3 = Pessoa()
+ var animal1 = Animal("cachorro", "pinscher", 7, "chinelo", "grande")
+ var animal2 = Animal("passarinho", "canário da terra", 2, "alpiste", "pequeno")
+ 
+ // Exercício -> Faça o catálogo (fictício) de animais que estão morando no zoológico de SP
+ // com no mínimo 20 animais, sem repetição de espécie.
+ 
+}
+
+class Animal(var especie: String, //atributos que todo animalzin deve ter
+             var raca: String,
+             var idade: Int,
+             var dieta: String,
+             var habitat: String){
+
+}
+
+class Pessoa {
+    
+    var nome = ""
+    var idade = 0
+    var altura = 0
+    var peso = 0
+    var profissao = "" 
+    var nacionalidade = ""
+    var idioma = ""
+    
+    }
+//--------------------------------------------------------------------------------
